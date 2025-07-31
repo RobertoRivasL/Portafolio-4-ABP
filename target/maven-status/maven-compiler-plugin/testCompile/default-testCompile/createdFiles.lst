@@ -1,0 +1,7 @@
+com\automatizacion\proyecto\pruebas\PruebaLogin.class
+com\automatizacion\proyecto\utilidades\GestorEvidencias.class
+com\automatizacion\proyecto\paginas\PaginaLogin.class
+com\automatizacion\proyecto\paginas\PaginaRegistro.class
+com\automatizacion\proyecto\base\BaseTest.class
+com\automatizacion\proyecto\utilidades\LectorDatosPrueba.class
+com\automatizacion\proyecto\pruebas\PruebaRegistro.class

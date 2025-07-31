@@ -1,0 +1,8 @@
+nombreUsuario,apellido,correo,contrasena,confirmarContrasena,mensajeErrorEsperado
+UsuarioCorto,Test,,pass,pass,Email is required
+CorreoInvalido,Apellido,correo.invalido,Password123,Password123,Invalid email address
+ContrasenaCorta,Apellido,test@example.com,abc,abc,Password must be at least 8 characters
+ContrasenasNoCoinciden,Apellido,test2@example.com,Pass1234,Pass4321,Passwords do not match
+NombreVacio,,usuario.vacio@correo.com,Clave2025!,Clave2025!,First Name is required
+ApellidoVacio,,usuario.apellido@correo.com,Clave2025!,Clave2025!,Last Name is required
+CorreoRepetido,Apellido,roberto.rivas@example.com,MiContrasenaSegura123!,MiContrasenaSegura123!,Email already exists

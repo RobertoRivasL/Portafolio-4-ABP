@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="372.547" tests="6" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\uman_\.cache\selenium\chromedriver\win64\138.0.7204.183\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Doc_HP_RRL\RRL\Sence\Iseg Spa\Modulo 4\Ejercicios\Entregables\06\suite-automatizacion\target\test-classes;D:\Doc_HP_RRL\RRL\Sence\Iseg Spa\Modulo 4\Ejercicios\Entregables\06\suite-automatizacion\target\classes;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\github\bonigarcia\webdrivermanager\5.9.0\webdrivermanager-5.9.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\brotli\dec\0.1.2\dec-0.1.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\testng\testng\7.10.2\testng-7.10.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\beust\jcommander\1.82\jcommander-1.82.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\uman_\AppData\Local\Temp\surefire15870486320512077624\surefirebooter-20250730232042939_3.jar C:\Users\uman_\AppData\Local\Temp\surefire15870486320512077624 2025-07-30T23-20-42_756-jvmRun1 surefire-20250730232042939_1tmp surefire_0-20250730232042939_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Doc_HP_RRL\RRL\Sence\Iseg Spa\Modulo 4\Ejercicios\Entregables\06\suite-automatizacion\target\test-classes;D:\Doc_HP_RRL\RRL\Sence\Iseg Spa\Modulo 4\Ejercicios\Entregables\06\suite-automatizacion\target\classes;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\github\bonigarcia\webdrivermanager\5.9.0\webdrivermanager-5.9.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\brotli\dec\0.1.2\dec-0.1.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\testng\testng\7.10.2\testng-7.10.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\beust\jcommander\1.82\jcommander-1.82.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;D:\Program Files\Apache Software Foundation\Dmaven_repo\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\uman_"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Doc_HP_RRL\RRL\Sence\Iseg Spa\Modulo 4\Ejercicios\Entregables\06\suite-automatizacion"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\uman_\AppData\Local\Temp\surefire15870486320512077624\surefirebooter-20250730232042939_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
+    <property name="user.name" value="uman_"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Program Files\Apache Software Foundation\Dmaven_repo"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\uman_\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="D:\Doc_HP_RRL\RRL\Sence\Iseg Spa\Modulo 4\Ejercicios\Entregables\06\suite-automatizacion"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;\bin;D:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\MySQL\MySQL Utilities 1.6\;C:\apache-ant-1.10.13\bootstrap\bin;D:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\HP\HP One Agent;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Apache Software Foundation\apache-maven-3.9.10\bin;D:\Program Files\sonarqube-2025.3.1.109879\bin;%JMETER_HOME%\bin;D:\Program Files\Microsoft SQL Server\150\Tools\Binn\;D:\Terraform;C:\Program Files\Git LFS;D:\Program Files\Apache Software Foundation\allure-2.34.1\bin;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;D:\Program Files\PowerShell\7\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;D:\Program Files\PuTTY\;C:\Users\uman_\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\uman_\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\uman_\AppData\Local\Microsoft\WindowsApps;C:\Users\uman_\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\WebStorm 2023.1.2\bin;C:\Program Files\JetBrains\PyCharm 2023.1.2\bin;C:\Users\uman_\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\uman_\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\uman_\.dotnet\tools;d:\Program Files\JetBrains\JetBrains Gateway 2023.2.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.4\bin;;D:\Program Files (x86)\BrowserStackLocal\;C:\Users\uman_\AppData\Local\Programs\Ollama;d:\Users\uman_\AppData\Local\Programs\Microsoft VS Code\bin;D:\Program Files\Apache Software Foundation\allure-2.34.1\bin;C:\Users\uman_\AppData\Roaming\npm;C:\Program Files (x86)\Nmap;c:\Users\uman_\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.8+12-LTS-250"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testContrasenaInvalida" classname="com.automatizacion.proyecto.pruebas.PruebaLogin" time="55.879">
+    <failure message="La página de login debería estar visible. expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: La página de login debería estar visible. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.automatizacion.proyecto.pruebas.PruebaLogin.testContrasenaInvalida(PruebaLogin.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Navegado a la URL: https://practice.expandtesting.com/register
+Navegado a la URL: https://practice.expandtesting.com/login
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+jul 30, 2025 11:20:48 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+jul 30, 2025 11:20:48 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.169. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+jul 30, 2025 11:20:48 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+jul 30, 2025 11:20:48 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.169. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+La página de Login no es completamente visible o sus elementos no son clickeables dentro del tiempo de espera. Error: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: i.fa.fa-2x.fa-sign-in' (tried for 30 second(s) with 500 milliseconds interval)
+]]></system-err>
+  </testcase>
+  <testcase name="testInicioSesionExitoso" classname="com.automatizacion.proyecto.pruebas.PruebaLogin" time="26.649">
+    <failure message="La página de login debería estar visible. expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: La página de login debería estar visible. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.automatizacion.proyecto.pruebas.PruebaLogin.testInicioSesionExitoso(PruebaLogin.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Navegado a la URL: https://practice.expandtesting.com/register
+]]></system-out>
+    <system-err><![CDATA[jul 30, 2025 11:22:13 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+jul 30, 2025 11:22:13 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.169. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+La página de Login no es completamente visible o sus elementos no son clickeables dentro del tiempo de espera. Error: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: i.fa.fa-2x.fa-sign-in' (tried for 30 second(s) with 500 milliseconds interval)
+]]></system-err>
+  </testcase>
+  <testcase name="testUsuarioInvalido" classname="com.automatizacion.proyecto.pruebas.PruebaLogin" time="139.123">
+    <failure message="java.util.concurrent.TimeoutException&#10;Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5c3b5f7c453639733e720bbbd5255898, get {url=https://practice.expandtesting.com/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\uman_\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:27335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:27335/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5c3b5f7c453639733e720bbbd5255898" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c3b5f7c453639733e720bbbd5255898, get {url=https://practice.expandtesting.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\uman_\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:27335}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:27335/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c3b5f7c453639733e720bbbd5255898
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at com.automatizacion.proyecto.paginas.PaginaLogin.navegarA(PaginaLogin.java:45)
+	at com.automatizacion.proyecto.pruebas.PruebaLogin.testUsuarioInvalido(PruebaLogin.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+	... 30 more
+]]></failure>
+    <system-err><![CDATA[jul 30, 2025 11:23:23 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+jul 30, 2025 11:23:23 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.169. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testRegistroContrasenasNoCoincidentes" classname="com.automatizacion.proyecto.pruebas.PruebaRegistro" time="19.257">
+    <failure message="La página de registro debería estar visible. expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: La página de registro debería estar visible. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.automatizacion.proyecto.pruebas.PruebaRegistro.testRegistroContrasenasNoCoincidentes(PruebaRegistro.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Navegado a la URL: https://practice.expandtesting.com/login
+]]></system-out>
+    <system-err><![CDATA[jul 30, 2025 11:21:47 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+jul 30, 2025 11:21:47 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.169. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+La página de Registro no es completamente visible o sus elementos no son clickeables dentro del tiempo de espera. Error: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: password-confirm' (tried for 45 second(s) with 500 milliseconds interval)
+]]></system-err>
+  </testcase>
+  <testcase name="testRegistroExitoso" classname="com.automatizacion.proyecto.pruebas.PruebaRegistro" time="38.954">
+    <failure message="La página de registro debería estar visible. expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: La página de registro debería estar visible. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.automatizacion.proyecto.pruebas.PruebaRegistro.testRegistroExitoso(PruebaRegistro.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-err><![CDATA[jul 30, 2025 11:22:42 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+jul 30, 2025 11:22:42 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.169. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+La página de Registro no es completamente visible o sus elementos no son clickeables dentro del tiempo de espera. Error: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: password-confirm' (tried for 45 second(s) with 500 milliseconds interval)
+]]></system-err>
+  </testcase>
+  <testcase name="testRegistroUsuarioExistente" classname="com.automatizacion.proyecto.pruebas.PruebaRegistro" time="180.784">
+    <failure message="java.util.concurrent.TimeoutException&#10;Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [69796fd94d7fbcfe9b7ccb77d35780d9, get {url=https://practice.expandtesting.com/register}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\uman_\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:27607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:27607/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 69796fd94d7fbcfe9b7ccb77d35780d9" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [69796fd94d7fbcfe9b7ccb77d35780d9, get {url=https://practice.expandtesting.com/register}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\uman_\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:27607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:27607/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 69796fd94d7fbcfe9b7ccb77d35780d9
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at com.automatizacion.proyecto.paginas.PaginaRegistro.navegarA(PaginaRegistro.java:47)
+	at com.automatizacion.proyecto.pruebas.PruebaRegistro.testRegistroUsuarioExistente(PruebaRegistro.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+	... 30 more
+]]></failure>
+  </testcase>
+</testsuite>

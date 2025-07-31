@@ -1,0 +1,7 @@
+nombreUsuario,apellido,correo,contrasena,confirmarContrasena,mensajeEsperado
+Roberto,Rivas,roberto.rivas@example.com,MiContrasenaSegura123!,MiContrasenaSegura123!,You have successfully registered!
+Maria,Gomez,maria.gomez@test.com,PasswordFuerte_789,PasswordFuerte_789,You have successfully registered!
+Juan,Perez,juan.perez@dominio.org,OtraClave#abc,OtraClave#abc,You have successfully registered!
+Ana,Lopez,ana.lopez@correo.com,ClaveAna2025!,ClaveAna2025!,You have successfully registered!
+Carlos,Martinez,carlos.martinez@empresa.com,Martinez2025#,Martinez2025#,You have successfully registered!
+Lucia,Suarez,lucia.suarez@demo.com,LuciaDemo2025$,LuciaDemo2025$,You have successfully registered!

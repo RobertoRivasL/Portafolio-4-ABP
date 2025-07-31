@@ -1,0 +1,3 @@
+usuario,contrasena,mensajeErrorEsperado
+wrongUser,SuperSecretPassword!,Your username is invalid!
+practice,WrongPassword,Your password is invalid!

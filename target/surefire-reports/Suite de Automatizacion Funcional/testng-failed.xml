@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite de Automatizacion Funcional]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Pruebas de Funcionalidad de Login(failed)" verbose="0">
+    <parameter name="navegador" value="chrome"/>
+    <parameter name="modoSinCabeza" value="false"/>
+    <parameter name="tiempo.espera.prueba" value="30"/>
+    <classes>
+      <class name="com.automatizacion.proyecto.pruebas.PruebaLogin">
+        <methods>
+          <include name="testUsuarioInvalido"/>
+          <include name="desconfigurar"/>
+          <include name="testInicioSesionExitoso"/>
+          <include name="configurar"/>
+          <include name="testContrasenaInvalida"/>
+        </methods>
+      </class> <!-- com.automatizacion.proyecto.pruebas.PruebaLogin -->
+    </classes>
+  </test> <!-- Pruebas de Funcionalidad de Login(failed) -->
+  <test thread-count="2" parallel="tests" name="Pruebas de Funcionalidad de Registro(failed)" verbose="0">
+    <parameter name="navegador" value="chrome"/>
+    <parameter name="modoSinCabeza" value="false"/>
+    <parameter name="tiempo.espera.prueba" value="45"/>
+    <classes>
+      <class name="com.automatizacion.proyecto.pruebas.PruebaRegistro">
+        <methods>
+          <include name="desconfigurar"/>
+          <include name="testRegistroContrasenasNoCoincidentes"/>
+          <include name="testRegistroExitoso"/>
+          <include name="testRegistroUsuarioExistente"/>
+          <include name="configurar"/>
+        </methods>
+      </class> <!-- com.automatizacion.proyecto.pruebas.PruebaRegistro -->
+    </classes>
+  </test> <!-- Pruebas de Funcionalidad de Registro(failed) -->
+</suite> <!-- Failed suite [Suite de Automatizacion Funcional] -->
